@@ -1,3 +1,2 @@
-# ESP_NODE_NETWORK
-ESP32_ESP8266_WEBSOCKET_NETWORK
-
+# ESP NodeNet
+A DYI home ESP wireless network consisting of a Broker (ESP32) connecting multiple Client ESP devices throughout my home consisting of ESP32s, ESP8266s, ESP-01s and Sonoffs as well as some older PK-Link switches. The broker also connects to Alexa enabling 101-voice commands for broker and network control. It provides a web-monitor for debugging and network device controls. Each client has it's own internet/LAN connection and uses a socket server to communicate within the natwork enabling node to node communications as well.
